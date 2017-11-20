@@ -48,14 +48,35 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
             }
         });
-        intent = new Intent(MainActivity.this , DetailActivity.class);
+
         list.setOnItemClickListener(this);
     }
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
         switch(position){
             case 0 :
                 intent.putExtra("text","Persegi");
-                
+                intent = new Intent(MainActivity.this , DetailActivity.class);
+                startActivity(intent);
+                break;
+
+            case 2 :
+                intent.putExtra("text","Persegi");
+                intent = new Intent(MainActivity.this , DetailActivity2.class);
+                startActivity(intent);
+                break;
+            case 3 :
+                intent.putExtra("text","Persegi");
+                intent = new Intent(MainActivity.this , DetailActivity3.class);
+                startActivity(intent);
+                break;
+            case 4 :
+                intent.putExtra("text","Persegi");
+                intent = new Intent(MainActivity.this , DetailActivity4.class);
+                startActivity(intent);
+                break;
+            case 5 :
+                intent.putExtra("text","Persegi");
+                intent = new Intent(MainActivity.this , DetailActivity5.class);
                 startActivity(intent);
                 break;
             default: break;
