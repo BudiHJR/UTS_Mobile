@@ -17,5 +17,6 @@ public class HasilActivity extends AppCompatActivity {
         Intent intent = getIntent();
         data = intent.getStringExtra("hasil");
         tampil.setText(data);
+        //ayas Zakaria
     }
 }
