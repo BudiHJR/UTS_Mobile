@@ -28,6 +28,7 @@ public class DetailActivity extends AppCompatActivity {
                 try {
                     int nilai1 = Integer.parseInt(masukkan1.getText().toString());
                     int nilai2 = Integer.parseInt(masukkan2.getText().toString());
+                    int hasil = nilai1 *nilai2;
                     Intent intent = new Intent(DetailActivity.this,HasilActivity.class);
                     startActivity(intent);
 
