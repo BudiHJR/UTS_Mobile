@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity5 extends AppCompatActivity {
 
     EditText masukkan1,masukkan2;
     Button luas, keliling;
@@ -28,7 +28,7 @@ public class DetailActivity extends AppCompatActivity {
                 try {
                     int nilai1 = Integer.parseInt(masukkan1.getText().toString());
                     int nilai2 = Integer.parseInt(masukkan2.getText().toString());
-                    Intent intent = new Intent(DetailActivity.this,HasilActivity.class);
+                    Intent intent = new Intent(DetailActivity5.this,HasilActivity.class);
                     startActivity(intent);
 
                 }catch (Exception d){
@@ -42,7 +42,7 @@ public class DetailActivity extends AppCompatActivity {
                 try {
                     int nilai1 = Integer.parseInt(masukkan1.getText().toString());
                     int nilai2 = Integer.parseInt(masukkan2.getText().toString());
-                    Intent intent = new Intent(DetailActivity.this,HasilActivity.class);
+                    Intent intent = new Intent(DetailActivity5.this,HasilActivity.class);
                     startActivity(intent);
 
                 }catch (Exception d){

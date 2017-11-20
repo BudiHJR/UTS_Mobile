@@ -54,9 +54,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
         switch(position){
             case 0 :
-                intent.putExtra("judul","apalah");
-                intent.putExtra("text","ajsdg");
-                intent.putExtra("gambar","asdadf");
+                intent.putExtra("text","Persegi");
+                
                 startActivity(intent);
                 break;
             default: break;

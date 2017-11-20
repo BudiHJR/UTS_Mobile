@@ -25,4 +25,15 @@
         android:textSize="20dp"
         android:id="@+id/nama"
         />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignStart="@+id/nama"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="79dp"
+        android:text="hasil"
+        android:textSize="30dp" />
 </RelativeLayout>
