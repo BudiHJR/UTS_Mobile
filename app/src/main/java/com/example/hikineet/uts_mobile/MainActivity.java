@@ -60,22 +60,22 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
 
             case 2 :
-                intent.putExtra("text","Persegi");
+                intent.putExtra("text","Lingkaran");
                 intent = new Intent(MainActivity.this , DetailActivity2.class);
                 startActivity(intent);
                 break;
             case 3 :
-                intent.putExtra("text","Persegi");
+                intent.putExtra("text","Segitiga");
                 intent = new Intent(MainActivity.this , DetailActivity3.class);
                 startActivity(intent);
                 break;
             case 4 :
-                intent.putExtra("text","Persegi");
+                intent.putExtra("text","Persegi Panjang");
                 intent = new Intent(MainActivity.this , DetailActivity4.class);
                 startActivity(intent);
                 break;
             case 5 :
-                intent.putExtra("text","Persegi");
+                intent.putExtra("text","Trapesium");
                 intent = new Intent(MainActivity.this , DetailActivity5.class);
                 startActivity(intent);
                 break;
